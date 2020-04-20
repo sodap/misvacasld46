@@ -1,0 +1,28 @@
+{
+  "ogmoVersion": "3.3.0",
+  "width": 320,
+  "height": 240,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "entities",
+      "_eid": "24502035",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 16,
+      "gridCellHeight": 16,
+      "gridCellsX": 20,
+      "gridCellsY": 15,
+      "entities": [
+        {"name": "cow", "id": 1, "_eid": "24516105", "x": 144, "y": 64, "originX": 0, "originY": 0},
+        {"name": "bandit", "id": 5, "_eid": "24529344", "x": 208, "y": 176, "originX": 0, "originY": 0},
+        {"name": "bandit", "id": 6, "_eid": "24529344", "x": 80, "y": 176, "originX": 0, "originY": 0},
+        {"name": "hero", "id": 7, "_eid": "24513438", "x": 144, "y": 80, "originX": 0, "originY": 0},
+        {"name": "bandit", "id": 12, "_eid": "24529344", "x": 144, "y": 160, "originX": 0, "originY": 0},
+        {"name": "bandit", "id": 13, "_eid": "24529344", "x": 112, "y": 192, "originX": 0, "originY": 0},
+        {"name": "bandit", "id": 14, "_eid": "24529344", "x": 176, "y": 192, "originX": 0, "originY": 0}
+      ]
+    }
+  ]
+}

@@ -19,7 +19,7 @@ class ApplicationMain
 
 		#if (js && html5)
 		#if (munit || utest)
-		lime.system.System.embed("misVacas", null, 960, 720);
+		lime.system.System.embed("misVacas", null, 0, 0);
 		#end
 		#else
 		create(null);
@@ -32,7 +32,7 @@ class ApplicationMain
 
 		ManifestResources.init(config);
 
-		app.meta["build"] = "379";
+		app.meta["build"] = "716";
 		app.meta["company"] = "HaxeFlixel";
 		app.meta["file"] = "misVacas";
 		app.meta["name"] = "misVacas";
@@ -51,21 +51,21 @@ class ApplicationMain
 			element: null,
 			frameRate: 60,
 			#if !web fullscreen: false, #end
-			height: 720,
+			height: 0,
 			hidden: #if munit true #else false #end,
 			maximized: false,
 			minimized: false,
 			parameters: {},
 			resizable: false,
 			title: "misVacas",
-			width: 960,
+			width: 0,
 			x: null,
 			y: null,
 		};
 
 		attributes.context = {
 			antialiasing: 0,
-			background: 13477184,
+			background: 0,
 			colorDepth: 32,
 			depth: true,
 			hardware: true,
@@ -99,7 +99,7 @@ class ApplicationMain
 		app.createWindow(attributes);
 		
 		#elseif !air
-		app.window.context.attributes.background = 13477184;
+		app.window.context.attributes.background = 0;
 		app.window.frameRate = 60;
 		#end
 

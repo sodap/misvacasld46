@@ -25,7 +25,16 @@
 	
 	<style>
 		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-		#openfl-content { background: #000000; width: 960px; height: 720px; }
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+		@font-face {
+			font-family: 'SeriesOrbit';
+			src: url('assets/fonts/SERIES.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/SERIES.woff') format('woff'),
+			url('assets/fonts/SERIES.TTF') format('truetype'),
+			url('assets/fonts/SERIES.svg#SeriesOrbit') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
 		@font-face {
 			font-family: 'Nokia Cellphone FC Small';
 			src: url('flixel/fonts/nokiafc22.eot?#iefix') format('embedded-opentype'),
@@ -55,7 +64,7 @@
 	<div id="openfl-content"></div>
 	
 	<script type="text/javascript">
-		lime.embed ("misVacas", "openfl-content", 960, 720, { parameters: {} });
+		lime.embed ("misVacas", "openfl-content", 0, 0, { parameters: {} });
 	</script>
 	
 </body>
