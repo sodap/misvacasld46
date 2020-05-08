@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{60ddeb93-8ca1-464e-b22f-a493ddfa4467}">
+		<property name="assetPath">
+			<value>Mis Vacas - Final.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>60.143854875283445</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5d69c195-9609-4149-9f21-8a32e02cb59c}</destination>
+		</relationship>
+	</object>
+</objects>
